@@ -329,7 +329,7 @@ blockquote > :last-child {
 
 blockquote footer, blockquote small, blockquote .small {
   display: block;
-  color: #12aaeb; }
+  color: #21a29e; }
 
 address {
   font-style: italic;
@@ -542,7 +542,7 @@ i, cite, em, var, address, dfn {
   font-size: 36px;
   line-height: 50px;
   font-weight: 400;
-  color: #12aaeb;
+  color: #21a29e;
   margin-bottom: 20px; }
   .section-heading.center {
     text-align: center; }
@@ -561,7 +561,7 @@ a {
   color: #043140;
   text-decoration: none; }
   a:hover {
-    color: #12aaeb;
+    color: #21a29e;
     text-decoration: none; }
 
 /* 1.4. HEADING & PARAGRAPH */
@@ -617,7 +617,7 @@ ol, ul {
     margin: 8px 0; }
 
 .title-heading {
-  color: #12aaeb;
+  color: #21a29e;
   font-size: 36px;
   line-height: 50px; }
 
@@ -637,13 +637,14 @@ ul.checklist {
       font-family: FontAwesome;
       content: "\f00c";
       font-size: 20px;
-      color: #12aaeb;
+      color: #21a29e;
       margin-left: -35px;
       margin-right: 15px; }
 
 .grid-services {
   margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px #000000c2; }
 
 .grid-item {
   margin-top: 30px;
@@ -781,7 +782,7 @@ ul.checklist {
   border-radius: 0; }
 
 .btn-default:hover {
-  background-color: #12aaeb; }
+  background-color: #21a29e; }
 
 .btn-orange-cta {
   background-color: #f6ba18;
@@ -798,24 +799,24 @@ ul.checklist {
     color: #ffffff; }
 
 .navbar-main .btn-orange-cta:hover {
-  background-color: #12aaeb;
+  background-color: #21a29e;
   color: #ffffff; }
 
 .btn-primary {
   background-color: #f6ba18; }
   .btn-primary:hover {
-    background-color: #12aaeb;
+    background-color: #21a29e;
     color: #ffffff; }
 
 .btn-secondary {
-  background-color: #12aaeb; }
+  background-color: #21a29e; }
   .btn-secondary:hover {
     background-color: #f6ba18;
     color: #ffffff; }
 
 .btn-secondary.disabled {
-  background-color: #12aaeb;
-  border-color: #12aaeb; }
+  background-color: #21a29e;
+  border-color: #21a29e; }
 
 .pagination {
   clear: both;
@@ -836,7 +837,7 @@ ul.checklist {
       background: #eee;
       border: 0; }
       .pagination > li > a:hover, .pagination > li > a.active {
-        background: #12aaeb;
+        background: #21a29e;
         color: #fff; }
     .pagination > li:first-child > a, .pagination > li:first-child > span {
       border-top-left-radius: 0;
@@ -845,10 +846,10 @@ ul.checklist {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0; }
   .pagination > .active > a {
-    background: #12aaeb;
+    background: #21a29e;
     color: #fff; }
   .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
-    background: #12aaeb;
+    background: #21a29e;
     color: #fff; }
 
 .btn-sidebar {
@@ -866,7 +867,7 @@ ul.checklist {
   margin-bottom: 20px; }
   .box-icon-1 .icon {
     display: inline-block;
-    color: #12aaeb;
+    color: #21a29e;
     font-size: 36px;
     line-height: 43px;
     float: left; }
@@ -882,7 +883,7 @@ ul.checklist {
   margin-bottom: 40px; }
   .box-icon-2 .icon {
     display: inline-block;
-    color: #12aaeb;
+    color: #21a29e;
     font-size: 36px;
     line-height: 43px;
     float: left; }
@@ -936,7 +937,7 @@ ul.checklist {
 .box-image-2 .image img {
   width: 100%; }
 .box-image-2 .blok-title {
-  color: #12aaeb;
+  color: #21a29e;
   font-size: 24px;
   font-weight: 400;
   margin-top: 30px;
@@ -948,7 +949,7 @@ ul.checklist {
   margin-bottom: 40px; }
   .box-image-3 .image {
     overflow: hidden;
-    background-color: #12aaeb;
+    background-color: #21a29e;
     position: relative; }
     .box-image-3 .image:before {
       content: '';
@@ -1001,7 +1002,7 @@ ul.checklist {
     margin-top: 20px;
     margin-bottom: 20px; }
   .box-image-3:hover .blok-title {
-    color: #12aaeb; }
+    color: #21a29e; }
 
 /* 2.8. BOX TESTIMONY */
 .box-testimony {
@@ -1030,7 +1031,7 @@ ul.checklist {
       font-size: 24px;
       line-height: 34px;
       font-weight: 700;
-      color: #12aaeb; }
+      color: #21a29e; }
       .box-testimony .quote-box .quote-name span {
         font-size: 12px;
         font-style: italic;
@@ -1043,7 +1044,7 @@ ul.checklist {
   border: 1px solid #eee;
   margin-bottom: 30px; }
   .box-team:hover {
-    border-color: #12aaeb; }
+    border-color: #21a29e; }
   .box-team:after {
     content: '';
     display: block;
@@ -1066,7 +1067,7 @@ ul.checklist {
       padding: 10px 0; }
       .box-team .box-image .sosmed .fa {
         font-size: 18px;
-        color: #12aaeb;
+        color: #21a29e;
         padding: 0 20px; }
         .box-team .box-image .sosmed .fa:hover {
           color: #043140; }
@@ -1076,7 +1077,7 @@ ul.checklist {
     padding: 30px 30px;
     position: relative; }
     .box-team .body-content .people {
-      color: #12aaeb;
+      color: #21a29e;
       font-size: 24px;
       font-weight: 700;
       margin-bottom: 15px; }
@@ -1088,7 +1089,7 @@ ul.checklist {
       margin-bottom: 40px; }
     .box-team .body-content .phone {
       font-size: 18px;
-      color: #12aaeb; }
+      color: #21a29e; }
       .box-team .body-content .phone .fa {
         font-size: 30px;
         color: #f6ba18;
@@ -1105,7 +1106,7 @@ ul.checklist {
     margin-bottom: 30px; }
   .box-statistic .heading {
     font-size: 36px;
-    color: #12aaeb;
+    color: #21a29e;
     font-weight: 700;
     margin-bottom: 20px; }
   .box-statistic .subheading {
@@ -1145,7 +1146,7 @@ ul.checklist {
       border-radius: 30px; }
     .box-history .item .year-info .heading {
       font-size: 24px;
-      color: #12aaeb;
+      color: #21a29e;
       margin-bottom: 20px; }
   .box-history .item:after {
     content: '';
@@ -1175,7 +1176,7 @@ ul.checklist {
       margin-left: 40px; }
       .box-partner .item .box-info .heading {
         font-size: 24px;
-        color: #12aaeb;
+        color: #21a29e;
         font-weight: 700;
         margin-bottom: 20px; }
     .box-partner .item:after {
@@ -1207,13 +1208,13 @@ ul.checklist {
     .panel-faq .panel-default > .panel-heading + .panel-collapse > .panel-body {
       border-top-color: transparent; }
     .panel-faq .panel-default > .panel-heading.active {
-      background-color: #12aaeb;
+      background-color: #21a29e;
       color: #fff; }
       .panel-faq .panel-default > .panel-heading.active:before {
         color: #fff;
         content: "\002D"; }
   .panel-faq .panel-default:hover > .panel-heading {
-    color: #12aaeb; }
+    color: #21a29e; }
   .panel-faq .panel-default:hover > .panel-heading.active {
     color: #ffffff; }
 .panel-faq .panel-title {
@@ -1263,7 +1264,7 @@ ul.checklist {
   .panel-pricing .price {
     padding: 15px 0;
     font-size: 80px;
-    background-color: #12aaeb;
+    background-color: #21a29e;
     font-size: 36px;
     color: #fff;
     font-weight: 700; }
@@ -1320,7 +1321,7 @@ ul.checklist {
     .career-tabs .nav-tabs > li.active > a, .career-tabs .nav-tabs > li.active > a:hover, .career-tabs .nav-tabs > li.active > a:focus {
       color: #ffffff;
       cursor: default;
-      background-color: #12aaeb; }
+      background-color: #21a29e; }
 .career-tabs .tab-content {
   padding: 20px 30px;
   border: 1px solid #eee; }
@@ -1331,7 +1332,7 @@ ul.checklist {
   margin-bottom: 40px; }
   .box-news-1 .image {
     overflow: hidden;
-    background-color: #12aaeb;
+    background-color: #21a29e;
     position: relative; }
     .box-news-1 .image img {
       opacity: 1;
@@ -1379,7 +1380,7 @@ ul.checklist {
     opacity: 100; }
   .box-news-1 .meta-date {
     margin-top: 10px;
-    color: #12aaeb;
+    color: #21a29e;
     font-size: 12px;
     font-style: italic; }
   .box-news-1 .blok-title {
@@ -1402,7 +1403,7 @@ ul.checklist {
     .list-news .news-item .image {
       position: relative;
       overflow: hidden;
-      background-color: #12aaeb; }
+      background-color: #21a29e; }
       .list-news .news-item .image:before {
         content: '';
         position: absolute;
@@ -1467,11 +1468,11 @@ ul.checklist {
       opacity: 100; }
     .list-news .news-item .meta-date {
       margin-top: 10px;
-      color: #12aaeb;
+      color: #21a29e;
       font-size: 12px;
       font-style: italic; }
     .list-news .news-item .meta-author {
-      color: #12aaeb;
+      color: #21a29e;
       font-style: italic;
       font-size: 12px;
       margin-bottom: 20px; }
@@ -1491,7 +1492,7 @@ ul.checklist {
  */
 /* 4.1 - TOPBAR */
 .topbar {
-  background-color: #12aaeb;
+  background-color: #21a29e;
   padding: 0 0;
   height: 40px; }
   .topbar .topbar-left .welcome-text {
@@ -1713,7 +1714,7 @@ dl.hiw {
     float: left; }
     dl.hiw dt .fa {
       font-size: 24px;
-      color: #12aaeb; }
+      color: #21a29e; }
   dl.hiw dd {
     margin-left: 60px;
     margin-bottom: 40px; }
@@ -1731,7 +1732,7 @@ dl.hiw {
     transform: translate(-50%, -50%);
     width: 72px;
     height: 72px;
-    background-color: #12aaeb;
+    background-color: #21a29e;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -1792,7 +1793,7 @@ dl.hiw {
   margin-bottom: 0px;
   line-height: normal; }
 .single-news .meta-author {
-  color: #12aaeb;
+  color: #21a29e;
   font-style: italic;
   font-size: 12px; }
 
@@ -1858,7 +1859,7 @@ dl.hiw {
   width: 32px;
   cursor: pointer;
   margin-left: 10px;
-  background-color: #12aaeb;
+  background-color: #21a29e;
   background-repeat: no-repeat;
   background-size: 32px 64px;
   background-image: url("../images/cd-icon-controller.svg"); }
@@ -1878,7 +1879,7 @@ dl.hiw {
 /* 6.6 Section - Features */
 /* 6.7 Section - CTA */
 .cta {
-  background-color: #12aaeb;
+  background-color: #21a29e;
   padding: 20px 0; }
   .cta .cta-desc {
     font-family: "Open Sans", sans-serif;
@@ -1909,7 +1910,7 @@ dl.hiw {
 .testimony .owl-theme .owl-dots .owl-dot span {
   background: #e7e7e7; }
 .testimony .owl-theme .owl-dots .owl-dot.active span, .testimony .owl-theme .owl-dots .owl-dot:hover span {
-  background: #12aaeb; }
+  background: #21a29e; }
 
 /* 6.11 - 404 Page */
 .title-404 {
@@ -1919,7 +1920,7 @@ dl.hiw {
 
 .subtitle-404 {
   font-size: 2em;
-  color: #12aaeb; }
+  color: #21a29e; }
 
 /* 6.12 - Pages */
 .banner-page.pages {
@@ -1950,7 +1951,7 @@ dl.hiw {
         content: '';
         display: block;
         width: 35px;
-        border-bottom: 1px solid #12aaeb;
+        border-bottom: 1px solid #21a29e;
         margin-top: 20px; }
     .footer .footer-item .footer-sosmed {
       margin-top: 50px;
@@ -1981,7 +1982,7 @@ dl.hiw {
         .footer .footer-item .list li:before {
           content: '\f105';
           font: normal normal normal 16px/1 FontAwesome;
-          color: #12aaeb;
+          color: #21a29e;
           margin-right: 10px; }
         .footer .footer-item .list li a {
           color: #ffffff; }
@@ -2001,7 +2002,7 @@ dl.hiw {
     list-style: none; }
     .list-info li .info-icon {
       display: inline-block;
-      color: #12aaeb;
+      color: #21a29e;
       font-size: 16px;
       float: left; }
     .list-info li .info-text {
