@@ -1679,7 +1679,15 @@ ul.checklist {
 .wrap-caption {
   padding-top: 10%;
   color: #ffffff;
-  width: 50%; }
+  width: 50%; 
+  background-color: #191a1c74;
+  background-clip: padding-box;
+  padding: 1em 0.8em 2.5em 1em;
+  margin-top: 5em;
+  text-shadow: -1px 1px 3px #0d0d0c;
+  text-align: center;
+  border-radius: 3px;
+}
   .wrap-caption.center {
     width: 80%;
     margin: 0 auto;
