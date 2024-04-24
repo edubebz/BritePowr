@@ -16,6 +16,11 @@ if (empty($_POST["email"])) {
     $email = $_POST["email"];
 }
 
+// ADDRESS
+{
+$address = $_POST["address"];
+}
+
 // MESSAGE
 if (empty($_POST["message"])) {
     $errorMSG .= "Message is required ";
@@ -24,8 +29,8 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "emailaddress@test.com";
-$Subject = "New Message Received";
+$EmailTo = "enquiries@britepowr.co.uk";
+$Subject = "New Enquiry from britepowrsolar.co.uk";
 
 // prepare email body text
 $Body = "";
@@ -34,6 +39,9 @@ $Body .= $name;
 $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $email;
+$Body .= "\n";
+$Body .= "Address: ";
+$Body .= $address;
 $Body .= "\n";
 $Body .= "Message: ";
 $Body .= $message;

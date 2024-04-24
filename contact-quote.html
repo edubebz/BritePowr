@@ -216,10 +216,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-12">
-					<div class="title-page">Get A Quote</div>
+					<div class="title-page" style="text-shadow: -1px 1px 3px #00000095;">Contact & Get A Quote</div>
 					<ol class="breadcrumb">
-						<li><a href="index.html">Contact</a></li>
-						<li class="active">Get A Quote</li>
+						<li class="active" style="text-shadow: -1px 1px 3px #f4dd9495;">Current response time</li>
+						<li class="active" style="text-shadow: -1px 1px 3px #f4dd9495;">Within 48h</li>
 					</ol>
 				</div>
 			</div>
@@ -243,24 +243,25 @@
 								<div class="info-icon">
 									<span class="fa fa-map-marker"></span>
 								</div>
-								<div class="info-text">99 S.t Jomblo Park Pekanbaru 28292. Indonesia</div> </li>
+								<div class="info-text">BritePowr, 130 Shore Road, Littleborough, OL15</div> 
+							</li>
 							<li>
 								<div class="info-icon">
 									<span class="fa fa-phone"></span>
 								</div>
-								<div class="info-text">(0761) 654-123987</div>
+								<div class="info-text">07472 583 395</div>
 							</li>
 							<li>
 								<div class="info-icon">
 									<span class="fa fa-envelope"></span>
 								</div>
-								<div class="info-text">info@yoursite.com</div>
+								<div class="info-text">enquiries@britepowr.co.uk</div>
 							</li>
 							<li>
 								<div class="info-icon">
 									<span class="fa fa-clock-o"></span>
 								</div>
-								<div class="info-text">Mon - Sat 09:00 - 17:00</div>
+								<div class="info-text">Mon - Fri 08:00 - 18:00</div>
 							</li>
 						</ul>
 					</div> 
@@ -269,98 +270,80 @@
 				<div class="col-sm-8 col-md-8 col-md-pull-4">
 					<div class="content">
 						<h2 class="section-heading">
-							Get A Quote
+							Get A Quote or Ask a Question
 						</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+						<p>Get in touch with us by filling out the form below. If you simply have a question about BritePowr or solar technologies - leave your name, email address and question in the box. <br><br>
+						If you wish to get a basic quote or find out about the eligibility of your property for solar energy installation, please also fill in the "Property Address" field and include a small description of your of your property (identifying features) in the box provided.</p>
 						<div class="margin-bottom-30"></div>
 						<h3 class="section-heading-2">
 							Contact Details
 						</h3>
-						<form action="#" class="form-contact">
+						<form action="php/form-process.php" class="form-contact" method="get">
 							<div class="row">
 								<div class="col-sm-6 col-md-6">
 									<div class="form-group">
-										<input type="text" class="form-control" id="p_name" placeholder="Full Name...">
+										<input type="text" class="form-control" id="p_name" placeholder="*Full Name...">
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-6">
 									<div class="form-group">
-										<input type="email" class="form-control" id="p_email" placeholder="Enter Address...">
+										<input type="email" class="form-control" id="p_email" placeholder="*Email Addres...">
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-6">
 									<div class="form-group">
-										<input type="text" class="form-control" id="p_phone" placeholder="Phone Number...">
+										<input type="text" class="form-control" id="p_phone" placeholder="Property Address...">
 									</div>
 								</div>
-								<div class="col-sm-6 col-md-6">
-									<div class="form-group">
-										<input type="text" class="form-control" id="p_age" placeholder="Your Age...">
-									</div>
 								</div>
 							</div>
 							<h3 class="section-heading-2">
-								Select Your Insurance
+								Which aspects of solar are you interested in?
 							</h3>
 							<div class="row">
 								<div class="col-sm-6 col-md-6">
 									<div class="checkbox">
 									    <label>
-									      <input type="checkbox"> House Insurance
+									      <input type="checkbox"> Solar Panel Installation
 									    </label>
 								  	</div>
 								</div>
 								<div class="col-sm-6 col-md-6">
 									<div class="checkbox">
 									    <label>
-									      <input type="checkbox"> Motor Insurance
+									      <input type="checkbox"> Battery Storage
 									    </label>
 								  	</div>
 								</div>
 								<div class="col-sm-6 col-md-6">
 									<div class="checkbox">
 									    <label>
-									      <input type="checkbox"> Car Insurance
+									      <input type="checkbox"> EV Chargepoints
 									    </label>
 								  	</div>
 								</div>
 								<div class="col-sm-6 col-md-6">
 									<div class="checkbox">
-									    <label>
-									      <input type="checkbox"> Boat Insurance
-									    </label>
-								  	</div>
+										<label>
+										  <input type="checkbox"> Full Packages
+										</label>
+									  </div>
 								</div>
-								<div class="col-sm-6 col-md-6">
-									<div class="checkbox">
-									    <label>
-									      <input type="checkbox"> Life Insurance
-									    </label>
-								  	</div>
-								</div>
-								<div class="col-sm-6 col-md-6">
-									<div class="checkbox">
-									    <label>
-									      <input type="checkbox"> Travel Insurance
-									    </label>
-								  	</div>
-								</div>
-								
-							</div>
+						</div>
 							<h3 class="section-heading-2">
-								What We Need to Know
+								General Description of Property
 							</h3>
 							<div class="form-group">
-								 <textarea id="p_message" class="form-control" rows="6" placeholder="Write message"></textarea>
+								 <textarea id="p_message" class="form-control" rows="6" placeholder="Leave any additional information here..."></textarea>
 								<div class="help-block with-errors"></div>
 							</div>
 							<div class="form-group">
 								<div id="success"></div>
-								<button type="submit" class="btn btn-secondary">ASK A QUOTE</button>
+								<button type="submit" class="btn btn-secondary">SEND</button>
 							</div>
 						</form>
 						<div class="margin-bottom-50"></div>
-						<p><em>Note: Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em></p>
+						<p><em>Note: We aim to respond within 48 hours of receiving your inquiry - however under very busy periods, an engineer may not be able to visit you within 7 days of confirmation of a site visit.</em></p>
 					 </div>
 				</div>
 
@@ -376,10 +359,10 @@
 			<div class="row">
 				
 				<div class="col-sm-12 col-md-7 col-md-offset-1">
-					<h3 class="cta-desc">Get An Insurance Right Now & Save up to 10%</h3>
+					<h3 class="cta-desc">See more about our solar packages >>> </h3>
 				</div>
 				<div class="col-sm-12 col-md-3">
-					<a href="contact.html" title="" class="btn btn-orange-cta pull-right btn-view-all">GET A QUOTE</a>
+					<a href="REPLACE.html" title="" class="btn btn-orange-cta pull-right btn-view-all">Solar Packages</a>
 				</div>
 
 			</div>
@@ -387,116 +370,106 @@
 	</div>
 	 
 	<!-- FOOTER SECTION -->
-	<div class="footer">
+<!-- FOOTER SECTION -->
+<div class="footer">
 		
-		<div class="container">
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-sm-3 col-md-3">
+				<div class="footer-item">
+					<img src="images/logo1.jpeg" alt="logo bottom">
+					<p><br>BritePowr provides elegant, professional solutions to solar power conversions on residential and commercial properties quickly and efficiently.</p>
+					<div class="footer-sosmed">
+						<a href="http://www.facebook.com/jntelectricalltd" title="Facebook">
+							<div class="item">
+								<i class="fa fa-facebook"></i>
+							</div>
+						</a>
+						<a href="http://www.twitter.com/britepowrsolar" title="Twitter">
+							<div class="item">
+								<i class="fa fa-twitter"></i>
+							</div>
+						</a>
+						<a href="http://www.instagram.com/jntelectrical" title="Instagram">
+							<div class="item">
+								<i class="fa fa-instagram"></i>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-md-3">
+				<div class="footer-item">
+					<div class="footer-title">
+						Contact Info
+					</div>
+					<ul class="list-info">
+						<li>
+							<div class="info-icon">
+								<span class="fa fa-map-marker"></span>
+							</div>
+							<div class="info-text">BritePowr, 130 Shore Road, Littleborough, OL15</div> 
+						</li>
+						<li>
+							<div class="info-icon">
+								<span class="fa fa-phone"></span>
+							</div>
+							<div class="info-text">07472 583 395</div>
+						</li>
+						<li>
+							<div class="info-icon">
+								<span class="fa fa-envelope"></span>
+							</div>
+							<div class="info-text">enquiries@britepowr.co.uk</div>
+						</li>
+						<li>
+							<div class="info-icon">
+								<span class="fa fa-clock-o"></span>
+							</div>
+							<div class="info-text">Mon - Fri 08:00 - 18:00</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-3 col-md-3">
+				<div class="footer-item">
+					<div class="footer-title">
+						Our Services
+					</div>
+					<ul class="list">
+						<li><a href="contact-quote.html" title="">Get a quote</a></li>
+						<li><a href="past-work.html" title="">Our previous work</a></li>
+						<li><a href="pricing-table.html" title="">Our packages</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-3 col-md-3">
+				<div class="footer-item">
+					<div class="footer-title">
+						Additional Links
+					</div>
+					<ul class="list">
+						<li><a href="#" title="">Example links</a></li>
+					</ul>
+				</div>
+			</div>
 			
-			<div class="row">
-				<div class="col-sm-3 col-md-3">
-					<div class="footer-item">
-						<img src="images/logo-bottom.png" alt="logo bottom">
-						<p>This template is a micro niche for business categories, namely Insure - Insurance Company HTML Template. there was an excess of this template is using HTML/CSS.</p>
-						<div class="footer-sosmed">
-							<a href="#" title="">
-								<div class="item">
-									<i class="fa fa-facebook"></i>
-								</div>
-							</a>
-							<a href="#" title="">
-								<div class="item">
-									<i class="fa fa-twitter"></i>
-								</div>
-							</a>
-							<a href="#" title="">
-								<div class="item">
-									<i class="fa fa-instagram"></i>
-								</div>
-							</a>
-							<a href="#" title="">
-								<div class="item">
-									<i class="fa fa-pinterest"></i>
-								</div>
-							</a> 
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3 col-md-3">
-					<div class="footer-item">
-						<div class="footer-title">
-							Contact Info
-						</div>
-						<ul class="list-info">
-							<li>
-								<div class="info-icon">
-									<span class="fa fa-map-marker"></span>
-								</div>
-								<div class="info-text">99 S.t Jomblo Park Pekanbaru 28292. Indonesia</div> </li>
-							<li>
-								<div class="info-icon">
-									<span class="fa fa-phone"></span>
-								</div>
-								<div class="info-text">(0761) 654-123987</div>
-							</li>
-							<li>
-								<div class="info-icon">
-									<span class="fa fa-envelope"></span>
-								</div>
-								<div class="info-text">info@yoursite.com</div>
-							</li>
-							<li>
-								<div class="info-icon">
-									<span class="fa fa-clock-o"></span>
-								</div>
-								<div class="info-text">Mon - Sat 09:00 - 17:00</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-sm-3 col-md-3">
-					<div class="footer-item">
-						<div class="footer-title">
-							Our Services
-						</div>
-						<ul class="list">
-							<li><a href="service-life-insurance.html" title="">Life Insurance</a></li>
-							<li><a href="service-car-insurance.html" title="">Car Insurance</a></li>
-							<li><a href="service-travel-insurance" title="">Travel Insurance</a></li>
-							<li><a href="service-house-insurance.html" title="">House Insurance</a></li>
-							<li><a href="service-vehicle-insurance.html" title="">Vehicle Insurance</a></li>
-							<li><a href="service-boat-insurance.html" title="">Boat Insurance</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-sm-3 col-md-3">
-					<div class="footer-item">
-						<div class="footer-title">
-							Additional Links
-						</div>
-						<ul class="list">
-							<li><a href="our-company.html" title="">Our Company</a></li>
-							<li><a href="our-team.html" title="">Our Team</a></li>
-							<li><a href="our-partners.html" title="">Our Partners</a></li>
-							<li><a href="careers.html" title="">Careers</a></li>
-							<li><a href="contact-us.html" title="">Contact Us</a></li>
-						</ul>
-					</div>
-				</div>
-				
-			</div>
 		</div>
-		
-		<div class="fcopy">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 col-md-12">
-						<p class="ftex">&copy; 2017 Insure by Rudhi Sasmito - All Rights Reserved</p> 
-					</div>
-				</div>
-			</div>
-		</div>
-		
 	</div>
 	
+	<div class="fcopy">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<p class="ftex">&copy; BritePowr operates under JNT Electrical LTD.</p> 
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
 	<!-- JS VENDOR -->
 	<script type="text/javascript" src="js/vendor/jquery.min.js"></script>
 	<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
